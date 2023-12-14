@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO DE SUGERENCIAS</title>
+    <link rel="stylesheet" href="Formulario1.css">
+    <link rel="stylesheet" href="Estilos de colores.css">
+    <link rel="stylesheet" href="bolitas de colores.js">
+
+    <style>
+        h1{ color:rgb(196, 144, 231)}
+ </style>
+
+</head>
+
+<body bgcolor="teal">
+
+        <h1>SUGERENCIAS</h1>
+
+        <form action="enviar por correo" method="post">
+         <ul>
+             <li>
+                <label for="nombre">NOMBRE</label>
+                <input type="text" id="nombre" name="nombre de usuario">
+             </li>
+   
+            <li>
+                  <label for="mail">CORREO ELECTRONICO</label>
+                  <input type="email" name="correo del usuario" id="mail">
+            </li>
+            
+            <li>
+                   <label for="contraseña">CONTRASEÑA</label>
+                   <input type="password">
+            </li>
+
+            <label class="Carrera">CARRERA</label>
+              <select name="Carrera" id="select"> 
+              <option value="0">ELIJA SU CARRERA </option>
+              <option value="1">PROMOCION DE LA SALUD </option>
+              <option value="2">NUTRICIÓN </option>
+              <option value="3">INGENIERÍA </option>
+        |     <option value="4">MODELACION MATEMATICA</option>
+              </select>
+
+
+            <li>
+                <label for="mensaje">COMENTARIO</label>
+                <textarea name="mensaje" id="msg" cols="30" rows="10"></textarea>
+            </li>    
+            <li>
+                <button class="boton">ENVIAR</button>
+                <input type="reset" class="boton">
+            </li>
+            
+          </ul>  
+                             
+        </form>
+
+        <br> <br>
+        
+        <audio src="Bella.mp3" controls loop="2"></audio>
+
+</body>
+</html>

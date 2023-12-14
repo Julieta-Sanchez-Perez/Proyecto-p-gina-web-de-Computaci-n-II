@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(2, 41, 41);
+    color:aliceblue;
+}
+
+h1{
+    text-align: center;
+    color:aliceblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+form{
+    /*Centrar el formulario*/
+    margin: 0 auto;
+    width: 440px;
+    padding: 10px;
+    border: 2px solid gold;
+    border-radius: 12px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li + li, button {
+    margin-top: 10px;
+}
+
+label{
+    /*Tamaño y alineación*/
+     display: inline-block;
+     width: 120px;
+     text-align: right;
+}
+
+input, textarea{
+    font: 1em sans-serif;
+    width:300px;
+    box-sizing: border-box;
+    border: 1px solid chartreuse;
+}
+
+input:focus, textarea:focus{
+    /*Destacado adicional para elementos que tienen el cursor*/
+    background-color: rgb(2, 41, 41);
+    color:yellow;
+}
+
+.boton{
+    margin-left: 200px;
+    max-width: 144px;
+    font-size: large;
+}
+
+button:hover {
+    background-color: #000;
+    color: lightgreen;
+    transition: 1s;
+}
+
+.Carrera{
+    margin:10px; 
+    padding: 10px;
+}
+
+#select{
+    margin:10px; 
+    padding: 10px;
+}
